@@ -10,10 +10,9 @@ pipeline{
                 
                 script{
                     
-                    git branch: 'main' , url: 'https://github.com/rush1998/demo-counter-app.git'
+                    git branch: 'main', url: 'https://github.com/rush1998/demo-counter-app.git'
                 }
             }
         }
     }
-        
-}
+}       
